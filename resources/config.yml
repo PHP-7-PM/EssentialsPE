@@ -7,7 +7,7 @@ version: 0.0.2
 # Edit different parts of the AFK feature!
 afk:
   # Players that are AFK can, or not, be damaged
-  safe: true
+  safe: false
   # Time until a player is known as AFK
   # You can disable this feature by assigning a value lower to 0
   auto-set: 300
@@ -34,12 +34,12 @@ enable-custom-colors: false
 # These options will let you configure how the auto-updater will work
 updater:
   # Enable the AUTOMATIC updater
-  enabled: true
+  enabled: false
   # Allow to set a time interval for the auto-updater to work (In seconds) [Default is 30 minutes {1800 seconds}]
   time-interval: 1800
   # Do you want to warn the console?
   warn-console: true
   # Do you want to warn players with the permission 'essentials.update'?
-  warn-players: true
+  warn-players: false
   # Do you want to use 'stable' releases? If not, beta ones will be used instead
   stable: true
